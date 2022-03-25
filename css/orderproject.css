@@ -1,0 +1,86 @@
+body{
+	background-color: hsl(225, 100%, 94%);
+	font-size: 16px;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.centersty{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	text-align:center;
+	width: 350px;
+	margin-top: 35px;
+	border-radius: 25px;
+	background-color: #fff;
+}
+
+.hero{
+	width: 350px;
+	border-radius: 25px 25px 0 0;
+}
+
+.minwidth{
+	padding: 17px 40px 40px 40px;
+}
+
+.plan{
+	display: flex;
+	align-items: center;
+	padding: 10px 0 25px 0;
+}
+.plan > a{
+	font-weight: 700;
+}
+
+.plan > a:hover{
+	color: hsl(224, 23%, 55%);
+	text-decoration: none;
+}
+
+.minwidth > p{
+	color: #8a8988;
+}
+
+.price{
+	display: block;
+	padding: 0 50px 0 15px;
+}
+
+.planname{
+	font-weight: 900;
+}
+.dollar{
+	color: #8a8988;
+}
+
+.payment{
+	background-color: hsl(245, 75%, 52%);
+	padding: 15px 0;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+
+	display: block;
+}
+
+a.payment:hover{
+	background-color: hsl(224, 23%, 55%);
+}
+
+.cancel{
+	margin-top: 25px;
+	color: #70706f;
+	font-weight: 700;
+	text-decoration: none;
+
+	display: block;
+}
+
+a.cancel:hover{
+	color: #000;
+}
